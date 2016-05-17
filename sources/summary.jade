@@ -1,0 +1,9 @@
+//output:../content/summary.html
+extends template.jade
+block content
+    h1 Thank you for improving Oakville
+    img(src="../images/placeholderMap.png" alt="map" height="200em")
+    form(action="reportLog.html")
+        input.btn.btn-success(type="submit" value="Track Report")
+    form(action="main.html")
+        input.btn.btn-primary(type="submit" value="Home")

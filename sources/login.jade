@@ -1,0 +1,10 @@
+//output:../content/login.html
+extends template.jade
+block content
+    form(action="main.html")
+        label(for="username_field") Username:
+        input#username_field.form-control(type="text" name="username" placeholder="Username" auto)
+        label(for="password_field") Password:
+        input#password_field.form-control(type="password" name="password" placeholder="Password")
+        input#login_button.btn.btn-success(type="submit" value="Log In")
+        a(href="register.html") Register

@@ -1,0 +1,13 @@
+//output:../content/register.html
+extends template.jade
+block content
+    form(action="main.html")
+        label.register First Name:
+            input.form-control(type="text" autofocus required)
+        label.register Last Name:
+            input.form-control(type="text" required)
+        label.register Email:
+            input.form-control(type="email" required)
+        label.register Birthdate:
+            input.form-control(type="date" required)
+        input.btn.btn-success(type="submit" value="Sign Up")

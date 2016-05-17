@@ -1,0 +1,92 @@
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+   resize: none;
+}
+
+#reportBtn {
+    display:flex;
+    border-radius: 50%;
+    background: lightblue;
+    padding: 46% 0;
+    line-height:50%;
+    font-size: 4em;
+    font-size: 20vw;
+    padding-left: 20%;
+  }
+
+a:hover {
+      text-decoration: none;
+      color: white;
+}
+
+#menu {
+    display:flex;
+    margin:5% 5% 5% 5%;
+    justify-content: flex-start;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex-direction: row;
+}
+
+div[class="col-1-2"] {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.register {
+    text-align: left;
+}
+
+input[type="radio"] {
+    display:none;
+}
+
+.row1 {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+label {
+    flex-direction: row;
+}
+label span {
+    font-size: 50px;
+    margin: 30px;
+}
+
+.col-1-2 label {
+    border: 3px solid black;
+}
+
+.col-1-2 label:hover {
+    background-color: rgb(57, 225, 255);
+}
+
+.col-1-2 label:focus {
+    background-color: rgb(57, 225, 255);
+}
+
+a[href="detail.html"] {
+    color: black;
+}
+
+a[href="detail.html"]:hover {
+    color: black;
+}
+
+.btn {
+    padding: 15px;
+    margin-top: 7px;
+}
