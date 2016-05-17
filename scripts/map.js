@@ -2,7 +2,7 @@ window.onload = function(){
     getLocation();
 }
 
-var x = document.getElementById("demo");
+var x = document.getElementById("map");
 function getLocation() {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(showPosition, showError);

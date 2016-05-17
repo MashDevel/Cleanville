@@ -5,28 +5,26 @@ body {
 }
 
 textarea {
-   resize: none;
+    resize: none;
 }
 
 #reportBtn {
-    display:flex;
+    display: flex;
     border-radius: 50%;
     background: lightblue;
-    padding: 46% 0;
-    line-height:50%;
-    font-size: 4em;
+    padding: 35% 0;
     font-size: 20vw;
     padding-left: 20%;
-  }
+}
 
 a:hover {
-      text-decoration: none;
-      color: white;
+    text-decoration: none;
+    color: white;
 }
 
 #menu {
-    display:flex;
-    margin:5% 5% 5% 5%;
+    display: flex;
+    margin: 5%;
     justify-content: flex-start;
 }
 
@@ -50,7 +48,7 @@ div[class="col-1-2"] {
 }
 
 input[type="radio"] {
-    display:none;
+    display: none;
 }
 
 .row1 {
@@ -58,9 +56,11 @@ input[type="radio"] {
     display: flex;
     flex-direction: row;
 }
+
 label {
     flex-direction: row;
 }
+
 label span {
     font-size: 50px;
     margin: 30px;
@@ -71,19 +71,7 @@ label span {
 }
 
 .col-1-2 label:hover {
-    background-color: rgb(57, 225, 255);
-}
-
-.col-1-2 label:focus {
-    background-color: rgb(57, 225, 255);
-}
-
-a[href="detail.html"] {
-    color: black;
-}
-
-a[href="detail.html"]:hover {
-    color: black;
+    background-color: #39e1ff;
 }
 
 .btn {
