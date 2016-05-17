@@ -1,2 +1,2 @@
 # Cleanville
-An application developed for reporting issues in your city.
+An application for reporting issues in your city.
